@@ -1,0 +1,66 @@
+.form {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 3rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #4c64ea;
+  transition: 0.3s ease;
+  font-size: 25px;
+}
+
+.input::placeholder {
+  color: #9e9ea7;
+}
+
+.input:focus,
+input:hover {
+  outline: none;
+  border-color: rgba(76, 100, 234, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgba(76, 105, 234, 0.1);
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.search-btn {
+  background: #ffffff;
+  border: 1px solid #4c64ea;
+  border-color: rgba(76, 100, 234, 0.4);
+  cursor: pointer;
+  margin: 20px 0;
+  width: 100%;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4c64ea;
+  transition: 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.search-btn:hover {
+  box-shadow: 0 0 0 4px rgba(76, 105, 234, 0.1);
+}
