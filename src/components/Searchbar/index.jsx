@@ -18,13 +18,9 @@ export default function Searchbar() {
 
     const options = {
       method: "GET",
-      /*headers: {
+      headers: {
         "X-RapidAPI-Key": process.env.REACT_APP_RAPID_API_KEY,
         "X-RapidAPI-Host": process.env.REACT_APP_RAPID_API_HOST,
-      },*/
-      headers: {
-        "X-RapidAPI-Key": "009f485739msh2522c13b0e8f9e7p14e54fjsn35e877bf7207",
-        "X-RapidAPI-Host": "streaming-availability.p.rapidapi.com",
       },
     };
 
